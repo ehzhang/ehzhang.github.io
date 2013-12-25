@@ -1,5 +1,63 @@
-<html>
-  <body>
-    Hello world!
-  </body>
-</html>
+<head>
+  <title>ehzhang - scripts</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+  <script src="js/site.js"></script>
+
+
+</head>
+
+<body>
+  <div id="main" class="content">
+    <center>
+      <img id="prof" class="circular ui image white-border" src="assets/prof3.jpg" width="200">
+      <h1 id="title"> ehzhang@mit.edu </h1>
+    </center>
+
+    <div id="links" class="center aligned stackable ui grid">
+      <div class="twelve wide column">
+        <i id="about" class="large custom-red circular inverted user link icon"></i>
+        <a href="http://ehzhang.scripts.mit.edu/blog">
+        <i id="blog" class="large custom-green circular inverted book link icon"></i>
+        </a>
+        <a href="http://github.com/ehzhang">
+        <i id="github" class="large custom-blue circular inverted github link icon"></i>        
+        </a> 
+        <i id="scripts" class="large custom-black inverted circular terminal link icon"></i>                     
+      </div>
+    </div>
+  </div>
+
+  <script>  
+    var speed = 300;
+
+    $(".icon").hover(
+      function(){
+        var icon_id = this.id
+        $("#title").fadeOut(speed, function() {
+          $(this).text(icon_id).fadeIn(speed);
+        })
+      },
+      function(){
+        $("#title").fadeOut(speed, function() {
+          $(this).text("ehzhang@mit.edu").fadeIn(speed);
+        })
+      }
+    );
+
+    // $(document).ready(function(){
+    //   var num = Math.floor(Math.random()*2) + 1
+    //   $("#prof").attr("src", "assets/prof" + num + ".jpg");
+    // })
+
+
+  </script>
+
+</body>
+

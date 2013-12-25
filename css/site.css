@@ -1,0 +1,45 @@
+body {
+  font-family: 'Archivo Narrow', sans-serif;  color: white;
+  text-shadow: 0px 0px 1px #404040;
+  background:url('../assets/dark_wall.png');
+  background-color: black;
+  margin: auto;
+}
+
+.content {
+  padding: 12% 0;
+}
+
+.white-border {
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+#links {
+  margin-top: -15px;
+}
+
+#links .icon {
+  margin: 0px 10px;
+}
+
+.custom-red {
+  background-color: #FF4444 !important;
+}
+
+.custom-green {
+  background-color: #99CC00 !important;
+}
+
+.custom-blue {
+  background-color: #33B5E5 !important;
+}
+
+.custom-black {
+  background-color: #454545 !important;
+}
