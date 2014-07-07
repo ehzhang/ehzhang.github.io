@@ -13,7 +13,6 @@ section > .title {
 }
 
 #splash {
-  /*background: #174fc6;*/
   background: #3677A1;
   top: 0;
   left: 0;
@@ -56,8 +55,13 @@ section > .title {
       color: white;
     }
 
-    #splash .contact a {
+    #splash .contact a:after {
       margin: 8px;
+      content: '\00B7'
+    }
+
+    #splash .contact a:last-child:after {
+      content: "";
     }
 
 #main {
@@ -143,7 +147,12 @@ section#projects {
 
   #splash .contact a {
     display: block;
-    margin: 1px;
+    margin: 8px 0;
+  }
+
+  #splash .contact a:after {
+    margin: 0;
+    content: "";
   }
 
   section#projects {
@@ -153,4 +162,12 @@ section#projects {
   #projects .project {
     height: 200px;
   }
+}
+
+@media(max-height: 700px) {
+
+  #splash .content {
+    position: relative;
+  }
+
 }
