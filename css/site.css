@@ -1,45 +1,156 @@
 body {
-  font-family: 'Archivo Narrow', sans-serif;  color: white;
-  text-shadow: 0px 0px 1px #404040;
-  background:url('../assets/dark_wall.png');
-  background-color: black;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Helvetic Neue', 'Helvetica', sans-serif;
+  color: rgba(0,0,0,.8);
 }
 
-.content {
-  padding: 12% 0;
+section > .title {
+  font-family: 'Playfair Display', 'Georgia', 'Helvetic Neue', 'Helvetica', serif;
+  font-size: 3em;
+  text-align: center;
+  margin: 36px 0;
 }
 
-.white-border {
-  border-style: solid;
-  border-width: thick;
-  border-color: white;
+#splash {
+  /*background: #174fc6;*/
+  background: #3677A1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+  color: white;
 }
 
-a, a:hover, a:visited, a:link, a:active {
-  text-decoration: none;
+  #splash .content{
+    position: absolute;
+    height: 50%;
+    margin: auto;
+    padding: 24px;
+    top: 0; right: 0; bottom: 0; left: 0;
+    text-align: center;
+  }
+
+    #splash .title {
+      font-family: 'Playfair Display', 'Georgia', 'Helvetic Neue', 'Helvetica', serif;
+      font-size: 5em;
+      margin-bottom: 20px;
+    }
+
+    #splash .subtitle {
+      font-size: 1.2em;
+      font-weight: 100;
+      margin-bottom: 16px;
+    }
+
+    #splash a {
+      color: white;
+      text-decoration: none;
+      font-weight: 300;
+    }
+
+    #splash a:visited {
+      color: white;
+    }
+
+    #splash .contact a {
+      margin: 8px;
+    }
+
+#main {
+  background: white;
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  min-height: 100%;
+  width: 100%;
 }
 
-#links {
-  margin-top: -15px;
+  #main .content {
+
+  }
+
+
+section#projects {
+  padding: 0 24px;
 }
 
-#links .icon {
-  margin: 0px 10px;
+  #projects .project {
+    position: relative;
+    margin: 16px;
+    min-width: 25vw;
+    min-height: 25vw;
+    overflow: hidden;
+  }
+
+  #projects .project:hover .overlay {
+    opacity: 1;
+  }
+
+  .project .overlay {
+    background: rgba(0, 0, 0, 0.80);
+    color: white;
+    position: absolute;
+
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+  }
+
+  .project .overlay .text {
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Lato', 'Helvetic Neue', 'Helvetica', sans-serif;
+    font-weight: 100;
+  }
+
+  .project .overlay .title {
+    font-family: 'Playfair Display', 'Georgia', 'Helvetic Neue', 'Helvetica', serif;
+    font-size: 2.8em;
+    margin-bottom: 8px;
+  }
+
+  .project .overlay .subtitle {
+    font-weight: 100;
+    font-size: 1.1em;
+  }
+
+  .project .overlay .description {
+    font-weight: 100;
+  }
+
+/* Tablets */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
 }
 
-.custom-red {
-  background-color: #FF4444 !important;
-}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #splash .title {
+    font-size: 1.6em;
+  }
 
-.custom-green {
-  background-color: #99CC00 !important;
-}
+  #splash .contact a {
+    display: block;
+    margin: 1px;
+  }
 
-.custom-blue {
-  background-color: #33B5E5 !important;
-}
+  section#projects {
+    padding: 0;
+  }
 
-.custom-black {
-  background-color: #454545 !important;
+  #projects .project {
+    height: 200px;
+  }
 }
