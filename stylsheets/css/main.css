@@ -52,9 +52,8 @@ a {
       cursor: pointer; }
   #header .down {
     position: absolute;
+    display: inline;
     bottom: 36px;
-    left: 0;
-    right: 0;
     opacity: .5;
     transition-duration: .2s; }
     #header .down:hover {
