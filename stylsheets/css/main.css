@@ -1,0 +1,122 @@
+html,
+body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Lato", Helvetica Neue, Helvetica, sans-serif;
+  color: #323232;
+  height: 100%;
+  width: 100%; }
+
+.divider {
+  width: 56px;
+  border-bottom: 3px solid white;
+  margin: 0 auto; }
+
+section {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.31); }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+#header {
+  position: relative;
+  background: linear-gradient(rgba(37, 91, 180, 0.9), rgba(12, 27, 55, 0.9)), url("../../assets/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.5em; }
+  #header .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none; }
+  #header p {
+    margin: 0;
+    padding: 18px; }
+  #header .name {
+    font-family: "Montserrat", Helvetica Neue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 1.3em; }
+  #header .icons i {
+    margin: 0 12px;
+    opacity: .5;
+    transition-duration: .2s; }
+    #header .icons i:hover {
+      opacity: 1;
+      cursor: pointer; }
+  #header .down {
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    transition-duration: .2s; }
+    #header .down:hover {
+      opacity: 1; }
+
+#about {
+  background: #2980b9;
+  padding: 48px 12px;
+  color: white;
+  text-align: center; }
+  #about .box {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    border: 6px solid white;
+    margin: 0 auto;
+    padding: 24px;
+    font-size: 1.2em; }
+    #about .box .title {
+      font-family: "Montserrat", Helvetica Neue, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      text-align: center; }
+  #about a {
+    color: #bedcf0; }
+
+#projects {
+  position: relative;
+  text-align: center;
+  padding: 24px; }
+  #projects .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 24px; }
+  #projects .project {
+    width: 80%;
+    max-width: 700px;
+    margin: 36px auto;
+    font-size: 1.2em; }
+    #projects .project .name a {
+      font-weight: bold; }
+    #projects .project a {
+      color: #328bff; }
+    #projects .project .divider {
+      margin-top: 12px;
+      width: 20px;
+      border-bottom: 1px solid #323232; }
+    #projects .project .description {
+      text-align: left; }
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 24px; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -5,21 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Mmm, fonts... -->
-  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Stylin' -->
-  <link rel="stylesheet" type="text/css" href="css/transition.min.css">
-  <link rel="stylesheet" type="text/css" href="css/site.css">
-  <link rel="stylesheet" type="text/css" href="css/project.images.css">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-  <!--<![endif]-->
+  <link rel="stylesheet" type="text/css" href="stylsheets/css/main.css">
 
   <!-- Scriptin' -->
   <script src="js/jquery-2.0.3.min.js"></script>
@@ -39,195 +30,268 @@
 </head>
 
 <body>
-  <div id="splash">
+
+  <section id="header">
+
     <div class="content">
+
+      <p class="name">
+        Edwin Zhang
+      </p>
+
+      <div class="divider"></div>
+
+      <p class="blurb">
+        Let's build something awesome together.
+      </p>
+
+      <div class="icons">
+        <a href="https://github.com/ehzhang">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="mailto:ehzhang@mit.edu">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/ehzhang">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ehzhang">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <a class="down" href="#about">
+      <i class="fa fa-chevron-down"></i>
+    </a>
+
+  </section>
+
+  <section id="about">
+    <div class="box">
       <div class="title">
-        Hey, I'm Edwin Zhang.
+        A little About me
       </div>
-      <div class="body">
-        <div class="subtitle">
-          <p>
-            I'm a design-focused full-stack developer, studying computer science at MIT.
-          </p>
-          <p>
-            This summer, I'm working at <a href="http://groupon.com">Groupon</a>
-            and helping organize <a href="http://hackmit.org">HackMIT</a>.
-          </p>
-          <p>
-            <a href="#main"> Check out some stuff I've done! </a>
-          </p>
-        </div>
-        <div class="contact">
-          <a href="assets/EdwinZhang-Resume.pdf">
-            RESUME
+      <br>
+      <div class="divider"></div>
+      <div class="content">
+        <p>
+          Hi there!
+        </p>
+        <p>
+          I'm a design-focused full-stack software engineer, studying Computer Science at MIT.
+        </p>
+        <p>
+          Currently, I'm a software engineer at
+          <a href="https://tablelist.com">
+            Tablelist
           </a>
-          <a href="mailto:ehzhang@mit.edu">
-            EMAIL
+          and the lead developer for
+          <a href="https://hackmit.org">
+            HackMIT.
           </a>
-          <a href="http://github.com/ehzhang">
-            GITHUB
+        </p>
+        <p>
+          Previously, I've interned at
+          <a href="https://groupon.com">
+            Groupon
+          </a> and worked at MIT's
+          <a href="http://csail.mit.edu">
+            CSAIL
           </a>
-          <a href="http://twitter.com/ehzhang">
-            TWITTER
+          and
+          <a href="http://media.mit.edu/">
+            Media Lab.
           </a>
-          <a href="http://www.linkedin.com/pub/edwin-zhang/71/706/750/">
-            LINKEDIN
+        </p>
+        <p>
+          This summer, I will be a front-end software engineering intern at
+          <a href="https://facebook.com">
+            Facebook.
           </a>
-        </div>
+        </p>
       </div>
     </div>
-  </div>
-  <div id="main">
-    <div class="content">
-      <section id="projects">
-        <div class="title">
-          Projects
-        </div>
+  </section>
 
-        <div class="pure-g">
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="hackmit" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    HackMIT
-                  </div>
-                  <div class="subtitle">
-                    Front-end Developer
-                    &middot;
-                    Summer 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="kobal" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    Kobal
-                  </div>
-                  <div class="subtitle">
-                    a16z's Battle of the Hacks (1st)
-                    &middot;
-                    Summer 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="lexo" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    Lexo
-                  </div>
-                  <div class="subtitle">
-                    MakeMIT Hackathon (1st)
-                    &middot;
-                    Spring 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="q005" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    005q
-                  </div>
-                  <div class="subtitle">
-                    Staff Tool
-                    &middot;
-                    Spring 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="gavel" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    Gavel
-                  </div>
-                  <div class="subtitle">
-                    Side Project
-                    &middot;
-                    Spring 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="ihtfp" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    ihtfp
-                  </div>
-                  <div class="subtitle">
-                    6.470 Web Programming Competition (2nd)
-                    &middot;
-                    Jan 2014
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="tempest" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    TEMPEST
-                  </div>
-                  <div class="subtitle">
-                    HackMIT Hackathon
-                    &middot;
-                    Fall 2013
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="pure-u-1 pure-u-md-1-3">
-            <div id="robot6270" class="project">
-              <div class="overlay">
-                <div class="text">
-                  <div class="title">
-                    Optimist Prime
-                  </div>
-                  <div class="subtitle">
-                    6.270 Autonomous Lego Robotics Competition (5th)
-                    &middot;
-                    Jan 2013
-                  </div>
-                  <div class="description">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
+  <section id="projects">
+    <div class="title">
+      Projects
     </div>
-  </div>
+
+
+    <div class="project">
+      <div class="name">
+        <a href="http://greenscreen.io">
+          greenscreen.io
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          An open-source digital signage solution using Google Chromecasts, which allows users
+          to manipulate content through a web interface. Users can also push alerts and create
+          'takeovers.'
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="name">
+        <a href="https://hackmit.org">
+          HackMIT
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          Led the dev team for HackMIT 2014, and created multiple applications for
+          hackathon management, including the main website splash, participant application
+          portal, a sponsor management portal, and a real-time help queue to pair company
+          mentors with hackers.
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="name">
+        <a href="http://nunchuckjs.com">
+          nunchuck.js
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          A library for real-time hardware data synchronization between mobile and desktop
+          browsers using javascript.
+          <br>
+          Demos include 2-player Mario Kart and n-player plane battle game.
+        </p>
+        <p>
+          2nd place winner at
+          <a href="http://ychacks.challengepost.com/">
+            YCHacks '14.
+          </a>
+          Featured in
+          <a href="http://venturebeat.com/2014/09/02/now-you-can-turn-your-smartphone-into-a-controller-for-your-web-based-video-game/">
+          VentureBeat.
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="name">
+        <a href="http://github.com/ehzhang/sense-js">
+          sense.js
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          A javascript library that leverages HTML5 to provide easy access to
+          device motion gestures.
+        </p>
+        <p>
+          Top 10 Finalist in
+          <a href="http://greylocku.com/hackfest/">
+            Greylock's Hackfest '14.
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="name">
+        <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks/hacks/kobal-annotate-the-internet">
+          KOBAL
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          A Google Chrome extension that allows paragraph-specific comments with
+          Bitcoin 'tipping' on any website, with a focus on clarifying sparse code
+          documentation and discussing articles.
+        </p>
+        <p>
+          Winner of A16Z's
+          <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">
+            Battle of the Hacks '14.
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="project">
+      <div class="name">
+        <a href="https://seelio.com/w/m1u/lexo-glove">
+          Lexo
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          A glove to teach the deaf-blind the hand positions for
+          sign language by automatically adjusting their fingers based on computer input.
+        </p>
+        <p>
+          1st place winner of the
+          <a href="http://makemit.org/">
+            MakeMIT
+          </a>
+            Hardware Hackathon '14.
+        </p>
+      </div>
+    </div>
+
+     <div class="project">
+      <div class="name">
+        <a href="http://005q.meteor.com">
+          005q
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          A staff tool used as a help queue for MIT's 6.005,
+          Elements of Software Construction to help facilitate office hours.
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="name">
+        <a href="http://ihtfp.meteor.com">
+          ihtfp
+        </a>
+      </div>
+      <div class="divider"></div>
+      <div class="description">
+        <p>
+          An MIT-only social network for sharing emotions.
+          Emotions are aggregated and displayed through charts and private text summaries
+          of users' posting habits.
+        </p>
+        <p>
+          2nd place winner and audience choice of MIT's
+          <a href="http://6.470.scripts.mit.edu/2014/contest/winners">
+            6.470 Web Programming Competition 2014.
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <a href="mailto:ehzhang@mit.edu">
+      ehzhang@mit.edu
+    </a>
+  </footer>
+
 </body>
 
