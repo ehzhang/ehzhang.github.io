@@ -31,8 +31,10 @@ a {
   text-align: center;
   font-size: 1.5em; }
   #header .content {
-    position: relative;
+    position: absolute;
     top: 50%;
+    left: 0;
+    right: 0;
     transform: translateY(-50%);
     display: none; }
   #header p {
