@@ -1,329 +1,85 @@
 <head>
-  <title> Edwin Zhang - hi! </title>
+    <title>edwin zhang</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <base target="_blank">
 
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Mmm, fonts... -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Stylin' -->
-  <link rel="stylesheet" type="text/css" href="stylsheets/css/main.css">
-
-  <!-- Scriptin' -->
-  <script src="js/jquery-2.0.3.min.js"></script>
-  <script src="js/transition.min.js"></script>
-  <script src="js/site.js"></script>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52642078-1', 'auto');
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-52642078-1', 'auto');
     ga('send', 'pageview');
+    </script>
 
-  </script>
-</head>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14pt;
+            color: rgb(48, 48, 48);
+            padding: 36px 16px;
+        }
+        section {
+            margin: 24px auto;
+            max-width: 640px;
 
-<body>
-
-  <section id="header">
-
-    <div class="content">
-
-      <p class="name">
-        Edwin Zhang
-      </p>
-
-      <div class="divider"></div>
-
-      <p class="blurb">
-        Let's build something awesome together.
-      </p>
-
-      <div class="icons">
-        <a href="https://github.com/ehzhang">
-          <i class="fa fa-github"></i>
-        </a>
-        <a href="mailto:ehzhang@mit.edu">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-        <a href="https://twitter.com/ehzhang">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/ehzhang">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </div>
-
-    </div>
-
-    <a class="down" href="#about">
-      <i class="fa fa-chevron-down"></i>
-    </a>
-
-  </section>
-
-  <section id="about">
-    <div class="box">
-      <div class="title">
-        A little About me
-      </div>
-      <br>
-      <div class="divider"></div>
-      <div class="content">
+        }
+        strong {
+            color: rgb(64, 64, 64);
+        }
+        a {
+            color: rgb(78, 132, 241)
+        }
+        p {
+            margin-bottom: 36px;
+        }
+        h3 {
+            font-size: 14pt;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+        ul {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        small {
+            color: rgb(60, 60, 60);
+        }
+    </style>
+  </head>
+  
+  <body>
+    <section id="main">
+        <h3>
+        👋 hi, i'm <strong>edwin zhang</strong>!
+        </h3>
         <p>
-          Hi there!
+            i like to build experiences that bring everyday delight, while being mindful of the tools and cultural forces that make them possible.
         </p>
         <p>
-          I'm a design-focused full-stack software engineer, studying Computer Science at MIT.
-        </p>
-
-        <p>
-          Previously, I've worked at
-          <a href="https://tablelist.com">
-            Tablelist,
-          </a>
-          interned at
-          <a href="https://facebook.com">
-            Facebook
-          </a>
-          and
-          <a href="https://groupon.com">
-            Groupon,
-          </a> and worked at MIT's
-          <a href="http://csail.mit.edu">
-            CSAIL
-          </a>
-          and
-          <a href="http://media.mit.edu/">
-            Media Lab.
-          </a>
-        </p>
-
-        <p>
-          Next year, I will be working as a software engineer for
-          <a href="https://counsyl.com">
-            Counsyl.
-          </a>
-        </p>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="title">
-      Projects
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://github.com/facebook/fixed-data-table">
-          Facebook - FixedDataTable
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          An open-source row React-based virtualization table for fast rendering and scrolling with massive reactive data sets. As a core contributor, designed and implemented a friendlier API.
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://github.com/ehzhang/HELPq">
-          HELPq
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-        HELPq is real-time help queue and mentor management application, targeted at hackathons and classrooms, where there is a need for issues to be claimed and satisfied within minutes. It includes a simple interface for requesting tickets, claiming tickets, and a powerful dashboard for administrating users/mentors and examining metrics.
-        </p>
-
-        <p>
-        At HackMIT 2015, 425 users submitted 502 tickets through our system, with an average response time of 9:37 and a median response time of 2:48. From our data, the majority of the time, a hacker could request help and receive world-class mentorship in-person, at their table, within five minutes, at a 1000+ person hackathon.
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://greenscreen.io">
-          greenscreen.io
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          An open-source digital signage solution using Google Chromecasts, which allows users
-          to manipulate content through a web interface. Users can also push alerts and create
-          'takeovers.'
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="https://hackmit.org">
-          HackMIT
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          Led the dev team for HackMIT 2014, and created multiple applications for
-          hackathon management, including the main website splash, participant application
-          portal, a sponsor management portal, and a real-time help queue to pair company
-          mentors with hackers.
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://nunchuckjs.com">
-          nunchuck.js
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          A library for real-time hardware data synchronization between mobile and desktop
-          browsers using javascript.
-          <br>
-          Demos include 2-player Mario Kart and n-player plane battle game.
+            🧘 currently, i'm teaching <a href="https://www.corepoweryoga.com/content/teachers/afbf9d48-daa1-429f-bbe9-48029ee2aa35">yoga in sf</a></li>
+            and taking time to spend more time on making (specifically, pottery, sewing, cooking).
         </p>
         <p>
-          2nd place winner at
-          <a href="http://ychacks.challengepost.com/">
-            YCHacks '14.
-          </a>
-          Featured in
-          <a href="http://venturebeat.com/2014/09/02/now-you-can-turn-your-smartphone-into-a-controller-for-your-web-based-video-game/">
-          VentureBeat.
-          </a>
+            🦉 most recently, i was a staff engineer at <a href="https://samsara.com">samsara</a> from 2017-2023, where i organized r&d-wide programs,
+            led infra/platform teams (ex: performance engineering, developer experience, frontend design systems), and shipped a number of major products.
         </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://github.com/ehzhang/sense-js">
-          sense.js
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          A javascript library that leverages HTML5 to provide easy access to
-          device motion gestures.
-        </p>
-        <p>
-          Top 10 Finalist in
-          <a href="http://greylocku.com/hackfest/">
-            Greylock's Hackfest '14.
-          </a>
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks/hacks/kobal-annotate-the-internet">
-          KOBAL
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          A Google Chrome extension that allows paragraph-specific comments with
-          Bitcoin 'tipping' on any website, with a focus on clarifying sparse code
-          documentation and discussing articles.
-        </p>
-        <p>
-          Winner of A16Z's
-          <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">
-            Battle of the Hacks '14.
-          </a>
-        </p>
-      </div>
-
-    </div>
-
-
-    <div class="project">
-      <div class="name">
-        <a href="https://seelio.com/w/m1u/lexo-glove">
-          Lexo
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          A glove to teach the deaf-blind the hand positions for
-          sign language by automatically adjusting their fingers based on computer input.
-        </p>
-        <p>
-          1st place winner of the
-          <a href="http://makemit.org/">
-            MakeMIT
-          </a>
-            Hardware Hackathon '14.
-        </p>
-      </div>
-    </div>
-
-     <div class="project">
-      <div class="name">
-        <a href="http://005q.meteor.com">
-          005q
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          A staff tool used as a help queue for MIT's 6.005,
-          Elements of Software Construction to help facilitate office hours.
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="name">
-        <a href="http://ihtfp.meteor.com">
-          ihtfp
-        </a>
-      </div>
-      <div class="divider"></div>
-      <div class="description">
-        <p>
-          An MIT-only social network for sharing emotions.
-          Emotions are aggregated and displayed through charts and private text summaries
-          of users' posting habits.
-        </p>
-        <p>
-          2nd place winner and audience choice of MIT's
-          <a href="http://6.470.scripts.mit.edu/2014/contest/winners">
-            6.470 Web Programming Competition 2014.
-          </a>
-        </p>
-      </div>
-    </div>
-
-  </section>
-
-  <footer>
-    <a href="mailto:ehzhang@mit.edu">
-      ehzhang@mit.edu
-    </a>
-  </footer>
-
-</body>
-
+    </section>
+    <section>
+        <h3>before that, i was:</h3>
+            <ul>
+                <li>a software engineer at <a href="https://myriad.com/womens-health/">counsyl</a> <small>(2016 - 2017)</small></li>
+                <li>a student at <a href="https://www.mit.edu">mit</a> for computer science</li>
+            </ul>
+    </section>
+    <section>
+        <h3>you can find me:</h3>
+            <ul>
+                <li>on <a href="https://www.linkedin.com/in/ehzhang/">linkedin</a></li>
+                <li>on <a href="https://github.com/ehzhang">github</a></li>
+            </ul>
+    </section>
+  </body> 
